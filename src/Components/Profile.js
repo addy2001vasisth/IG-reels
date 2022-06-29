@@ -47,7 +47,7 @@ function Profile() {
     return (
         <>
         {
-            posts==null || userData==null ? <CircularProgress/> : 
+            posts==null || userData==null ? <CircularProgress style={{marginTop:"10rem", marginLeft:"40rem"}}/> : 
             <>
                 <Navbar userData={userData}/>
                 <div className="spacer"></div>
